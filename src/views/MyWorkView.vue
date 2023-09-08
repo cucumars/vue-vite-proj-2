@@ -1,29 +1,39 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '../components/HelloWorld.vue'
+
+export default {
+  components: { RouterLink, RouterView, HelloWorld },
+  props: {
+    response: Object,
+  },
+  data() {}
+}
 </script>
 
+
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
+  <div class="my-works">
+    <h1>我的作品集</h1>
+    <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/my-works">作品集</RouterLink>
-        <RouterLink to="/todo-list-fixed">固定式備忘錄</RouterLink>
-        <RouterLink to="/todo-list-active">活動式備忘錄</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+        <RouterLink to="/my-works-1">作品一</RouterLink>
+    </nav>
+  </div>
   <RouterView />
 </template>
 
 <style scoped>
+@media (min-width: 1024px) {
+  .my-works {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -35,10 +45,12 @@ header {
 }
 
 nav {
-  width: 100%;
+  width: 70%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  /* flex-direction: column; */
 }
 
 nav a.router-link-exact-active {
