@@ -16,6 +16,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/my-works">作品集</RouterLink>
         <RouterLink to="/todo-list-fixed">固定式備忘錄</RouterLink>
         <RouterLink to="/todo-list-active">活動式備忘錄</RouterLink>
+        <RouterLink to="/compute-ex1">computed-Ex1</RouterLink>
+        <RouterLink to="/composition-ex1">computed-Ex1</RouterLink>
       </nav>
     </div>
   </header>

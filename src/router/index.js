@@ -36,6 +36,16 @@ const router = createRouter({
       path: '/todo-list-active',
       name: 'todo-list-active',
       component: () => import('../views/TodoListView.vue')
+    },
+    {
+      path: '/compute-ex1',
+      name: 'compute-ex1',
+      component: () => import('../views/ComputeEx1View.vue')
+    },
+    {
+      path: '/composition-ex1',
+      name: 'composition-ex1',
+      component: () => import('../views/CompositionEx1View.vue')
     }
   ]
 })
