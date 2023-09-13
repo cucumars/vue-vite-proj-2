@@ -18,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/todo-list-active">活動式備忘錄</RouterLink>
         <RouterLink to="/compute-ex1">computed-Ex1</RouterLink>
         <RouterLink to="/composition-ex1">computed-Ex1</RouterLink>
+        <RouterLink to="/comp-api-ex1">compsition API Ex1</RouterLink>
       </nav>
     </div>
   </header>
