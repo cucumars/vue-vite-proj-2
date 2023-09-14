@@ -19,6 +19,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/compute-ex1">computed-Ex1</RouterLink>
         <RouterLink to="/composition-ex1">computed-Ex1</RouterLink>
         <RouterLink to="/comp-api-ex1">compsition API Ex1</RouterLink>
+        <RouterLink to="/ex4">Ex4</RouterLink>
+        <RouterLink to="/ex5">Ex5</RouterLink>
+        <RouterLink to="/ex6-classes">Ex6-Binding HTML ClassesView</RouterLink>
       </nav>
     </div>
   </header>

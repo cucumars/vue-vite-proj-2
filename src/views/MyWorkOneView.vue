@@ -10,5 +10,5 @@ export default {
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
+  <h1>{{ message }}aaaa</h1>
 </template>

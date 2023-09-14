@@ -56,9 +56,9 @@ export default {
     <p>Has published books:</p>
     <span>{{ publishedBooksMessage }}</span>
 
-    <p>Has greeting:</p>
+    <p>Has greetingdffgfg:</p>
     <!-- {{ greetingUppercased = 'ssss' }} -->
     <span>{{ greetingUppercased }}</span>
-    <span>{{ greeting }}</span>
+    <span>{{ greeting }}dsfsdf</span>
   </div>
 </template>

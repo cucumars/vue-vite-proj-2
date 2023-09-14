@@ -51,7 +51,22 @@ const router = createRouter({
       path: '/comp-api-ex1',
       name: 'comp-api-ex1',
       component: () => import('../views/CompApiEx1View.vue')
-    }
+    },
+    {
+      path: '/ex4',
+      name: 'ex4',
+      component: () => import('../views/Ex4View.vue')
+    },
+    {
+      path: '/ex5',
+      name: 'ex5',
+      component: () => import('../views/Ex5View.vue')
+    },
+    {
+      path: '/ex6-classes',
+      name: 'ex6-classes',
+      component: () => import('../views/Ex6-BindingHTMLClassesView.vue')
+    },
   ]
 })
 

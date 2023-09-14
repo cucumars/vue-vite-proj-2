@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, reactive } from 'vue';
+import { ref, onMounted, reactive, nextTick } from 'vue';
 
 const count = ref(10);
 
@@ -86,16 +86,32 @@ const proxy3 = reactive({})
 const raw3 = {}
 proxy3.nested = raw3
 
-console.log(proxy3.nested === raw3) // false
+console.log(777,proxy3.nested === raw3) // false
 console.log(666, proxy3.nested === reactive(raw3)) // true
+// ----------------------------------------------------------
+const countTick = ref(0)
+
+async function incrementX() {
+  countTick.value++
+
+  // DOM not yet updated
+  console.log(document.getElementById('counter').textContent) // 0
+
+  await nextTick();
+  // DOM is now updated
+  console.log(document.getElementById('counter').textContent) // 1
+}
 </script>
 <template>
   <div>
-    <p>This count is:</p>
+    dfsgdsgsadgdsfsdfsd
+    <p>fgdfsgdfThis count is:</p>
     <span @click="count++">{{ count }}</span>
     <button @click="increment"> {{ count }} </button>
     <!-- <div>{{ mutateDeeply() }}</div> -->
-    <p>This state count is:</p>
+    <p>This state count isx:</p>
     <button @click="state.count++"> {{ state.count }} </button>
+    <div>sdsdsd</div>
+    <button id="counter" @click="incrementX">{{ countTick }}</button>
   </div>
 </template>

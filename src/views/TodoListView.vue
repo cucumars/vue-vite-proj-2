@@ -71,7 +71,7 @@ export default {
     <hr>
     <input type="text" v-model="temp.text">
     <button type="button"
-    @click="doneEdit">編輯完成</button>
+    @click="doneEdit">編輯完成dsfdsfdsfsdf</button>
   </div>
 
   <!-- <ol> -->

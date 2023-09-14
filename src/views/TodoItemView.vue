@@ -18,6 +18,7 @@ export default {
 </script>
 
 <template>
+  dsfsdf
   <ol>
     <!--
       We are providing each todo-item with the todo object
