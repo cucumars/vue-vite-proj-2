@@ -14,7 +14,7 @@ export default {
 
 <template>
   <div class="my-works">
-    <h1>我的作品集</h1>
+    <h1>我的作品集1</h1>
     <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

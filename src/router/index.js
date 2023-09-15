@@ -65,7 +65,22 @@ const router = createRouter({
     {
       path: '/ex6-classes',
       name: 'ex6-classes',
-      component: () => import('../views/Ex6-BindingHTMLClassesView.vue')
+      component: () => import('../views/Ex6BindingHTMLClassesView.vue')
+    },
+    {
+      path: '/ex7-todo-list-another',
+      name: '/ex7-todo-list-another',
+      component: () => import('../views/EX7TodoListAnotherView.vue')
+    },
+    {
+      path: '/ex8-event-handler',
+      name: '/ex7-event-handler',
+      component: () => import('../views/EX8EventHandlerView.vue')
+    },
+    {
+      path: '/ex9-form-input-bindings',
+      name: '/ex9-form-input-bindings',
+      component: () => import('../views/EX9FormInputBindingsView.vue')
     },
   ]
 })

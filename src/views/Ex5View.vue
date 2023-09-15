@@ -56,6 +56,7 @@ watch(
 </script>
 
 <template>
+  <p>aaa</p>
   <p>
     Ask a yes/no question:
     <input v-model="question" />
@@ -69,4 +70,5 @@ watch(
     Ask a yes/no question:
     <input v-model="obj.count" />
   </p>
+
 </template>

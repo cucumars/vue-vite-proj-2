@@ -51,8 +51,9 @@ onMounted(() => {
 </script>
 
 <template>
+  <p>aaa</p>
   <div class="about">
-    <h1>This is an about pagefffffdfgfdgf</h1>
+    <h1>This is an about pagefffffdfgfdgfASas</h1>
   </div>
   <div>sdsdsdfgsdfds</div>
   <button id="counter" @click="incrementX">{{ countTick }}</button>
