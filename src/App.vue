@@ -20,11 +20,12 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/composition-ex1">computed-Ex1</RouterLink>
         <RouterLink to="/comp-api-ex1">compsition API Ex1</RouterLink>
         <RouterLink to="/ex4">Ex4</RouterLink>
-        <RouterLink to="/ex5">Ex5</RouterLink>
+        <RouterLink to="/ex5-watch-1st">Ex5 Watch1stView</RouterLink>
         <RouterLink to="/ex6-classes">Ex6 Binding HTML ClassesView</RouterLink>
         <RouterLink to="/ex7-todo-list-another">EX7TodoListAnotherView</RouterLink>
         <RouterLink to="/ex8-event-handler">ex8-event-handler</RouterLink>
         <RouterLink to="/ex9-form-input-bindings">ex9-form-input-bindings</RouterLink>
+        <RouterLink to="/ex11-watch-1st-deep">Ex11 Watch1stDeep</RouterLink>
       </nav>
     </div>
   </header>

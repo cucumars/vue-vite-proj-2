@@ -58,9 +58,9 @@ const router = createRouter({
       component: () => import('../views/Ex4View.vue')
     },
     {
-      path: '/ex5',
+      path: '/ex5-watch-1st',
       name: 'ex5',
-      component: () => import('../views/Ex5View.vue')
+      component: () => import('../views/Ex5Watch1stView.vue')
     },
     {
       path: '/ex6-classes',
@@ -81,6 +81,11 @@ const router = createRouter({
       path: '/ex9-form-input-bindings',
       name: '/ex9-form-input-bindings',
       component: () => import('../views/EX9FormInputBindingsView.vue')
+    },
+    {
+      path: '/ex11-watch-1st-deep',
+      name: '/ex11-watch-1st-deep',
+      component: () => import('../views/Ex11Watch1stDeepView.vue')
     },
   ]
 })
