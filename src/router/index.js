@@ -39,8 +39,8 @@ const router = createRouter({
     },
     {
       path: '/compute-ex1',
-      name: 'compute-ex1',
-      component: () => import('../views/ComputeEx1View.vue')
+      name: 'compute-ex1',              
+      component: () => import('../views/ComputeEX1View.vue')
     },
     {
       path: '/composition-ex1',
