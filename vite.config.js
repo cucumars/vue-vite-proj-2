@@ -15,5 +15,6 @@ export default defineConfig({
   },
   server: {
     open: true,
-  }
+  },
+  base: 'https://cucumars.github.io/vue-vite-proj-2/'
 })
