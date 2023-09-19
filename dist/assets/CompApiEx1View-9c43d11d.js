@@ -1,1 +1,0 @@
-import{_,j as o,o as p,c,a as s,t as a,F as l}from"./index-8efa110e.js";const r={class:"greeting"},i={__name:"CompApiEx1View",setup(u){const e=o(0),n=o("Hello World!");return(m,t)=>(p(),c(l,null,[s("button",{onClick:t[0]||(t[0]=d=>e.value++)},"Count is: "+a(e.value),1),s("p",r,a(n.value),1)],64))}},g=_(i,[["__scopeId","data-v-f561a189"]]);export{g as default};

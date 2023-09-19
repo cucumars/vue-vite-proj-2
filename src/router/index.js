@@ -40,7 +40,7 @@ const router = createRouter({
     {
       path: '/compute-ex1',
       name: 'compute-ex1',              
-      component: () => import('../views/ComputeEx1View.vue')
+      component: () => import('../views/EX3ComputeView.vue')
     },
     {
       path: '/composition-ex1',
