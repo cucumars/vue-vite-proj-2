@@ -26,6 +26,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/ex8-event-handler">ex8-event-handler</RouterLink>
         <RouterLink to="/ex9-form-input-bindings">ex9-form-input-bindings</RouterLink>
         <RouterLink to="/ex11-watch-1st-deep">Ex11 Watch1stDeep</RouterLink>
+        <RouterLink to="/ex12-template-refs">Ex12 template-refs</RouterLink>
       </nav>
     </div>
   </header>

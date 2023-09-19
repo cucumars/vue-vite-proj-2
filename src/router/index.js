@@ -87,6 +87,11 @@ const router = createRouter({
       name: '/ex11-watch-1st-deep',
       component: () => import('../views/Ex11Watch1stDeepView.vue')
     },
+    {
+      path: '/ex12-template-refs',
+      name: '/ex12-template-refs',
+      component: () => import('../views/EX12TemplateRefsView.vue')
+    },
   ]
 })
 
