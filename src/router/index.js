@@ -45,7 +45,7 @@ const router = createRouter({
     {
       path: '/composition-ex1',
       name: 'composition-ex1',
-      component: () => import('../views/CompositionEx1View.vue')
+      component: () => import('../views/ExCompositionView.vue')
     },
     {
       path: '/comp-api-ex1',

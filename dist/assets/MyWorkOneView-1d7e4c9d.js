@@ -1,1 +1,0 @@
-import{_ as a,o,c as s,t}from"./index-2111ba57.js";const r={data(){return{message:"Hello World!"}}};function n(c,l,p,_,e,i){return o(),s("h1",null,t(e.message)+"aaaa",1)}const m=a(r,[["render",n]]);export{m as default};
